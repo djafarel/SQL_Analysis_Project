@@ -1,0 +1,20 @@
+# PostgreSQL local files and dumps
+*.sql.tmp
+*.dump
+*.backup
+*.pgsql
+pg_log/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.pgpass
+
+# Editor, OS, and temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
